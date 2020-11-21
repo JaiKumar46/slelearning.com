@@ -1,0 +1,247 @@
+﻿*{
+	
+	padding:0;
+	
+}
+
+body
+{
+	font-family: 'Times New Roman', Times, serif;
+	
+	
+}
+
+.nav-link
+{
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+nav{
+	flex: 1;
+	padding-left: 60px;
+}
+nav ul li
+{background: white;
+	list-style: none;
+	margin: 0px 20px;
+display:inline-block;	
+}
+nav ul li a
+{
+text-decoration:none;
+color:black;
+padding: 5px 20px;
+border: 1px solid white;
+line-height: 60px;
+font-size: 18px;
+}
+ul li a:hover
+{
+
+background-color:white;
+color: blue;
+}
+.logo img
+{
+	float:left;
+	width:143px;
+	
+	cursor: pointer;
+	
+}
+.content1 h1
+{
+	font-size: 40px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: black;
+}
+.content1 p
+{
+	font-size: 20px;
+	color: grey;
+}
+.content1
+{
+	box-sizing: border-box content-box;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.content1 .btn
+{
+display: inline-block;
+background: linear-gradient(45deg, #87adfe, #ff77cd);
+border-radius: 6px;
+padding: 10px 20px;
+box-sizing: border-box;
+text-decoration: none;
+color: blue;
+box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+.doubt-img
+{
+	height: 70%;
+	position: absolute;
+	bottom: 0;
+	right: 150px;
+}
+#service
+{
+padding: 80px 0;
+}
+.service h3{
+	padding: 5px;
+	margin-top:25px;
+	text-transform: uppercase;
+}
+.auto-style1 p
+{
+	font-size: 20px;
+	color: grey;
+}
+.serviceimg
+{
+	width: 75px;
+	margin-top: 20px;
+	cursor: none;
+}
+.service
+{
+	padding: 20px;
+}
+.mock-img
+{
+	width: 25%;
+	padding: 10px;
+	height: 70%;
+	position: absolute;
+	top: 1000px;
+	right: 100px;
+	float: right;
+	bottom:auto;
+	margin:20px;
+}
+.live
+{
+	float: right;
+	width: auto;
+	margin: 0 auto;
+	height: 100%;
+	vertical-align: middle;
+	flex: auto;
+}
+.course
+{
+	float: right;
+	margin: 20px;
+	top: 1000px;
+	bottom: auto;
+}
+.Books
+{
+	float: right;
+	margin: 20px;
+	top: 1000px;
+	bottom: auto;
+}
+.Qestion
+{
+	float: right;
+	margin: 20px;
+	top: 1000px;
+	bottom: auto;
+	
+}
+.content2
+{
+	background: aliceblue;
+}
+
+.content2 h1
+{
+	text-align: center;
+	text-decoration: solid whitesmoke;
+	
+}
+.para
+{
+	display: inline-block;
+background: repeating-radial-gradient(45deg, #dafe87c9, #a9ff7785 );
+border-radius: 6px;
+padding: 10px 20px;
+box-sizing: border-box;
+text-decoration: none;
+color: blue;
+box-shadow: 3px 8px 22px rgba(45, 28, 78, 0.65);
+}
+.btn
+{
+	
+	display: inline-block;
+background: linear-gradient(45deg, #87adfe, #ff77cd);
+border-radius: 6px;
+padding: 10px 20px;
+box-sizing: border-box;
+text-decoration: none;
+color: blue;
+box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+.footer
+{
+background: black;
+padding: 50px;	
+}
+.footer .footer-menu
+{
+	max-width: 1000px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto 25px;
+}
+.footer .footer-menu .title
+{
+	margin-bottom: 10px;
+	color: #adadad;
+}
+.footer .footer-menu ul li a{
+	display: block;
+	margin-bottom: 6px;
+	color:red;
+}
+.footer .footer-menu ul li a:hover
+{
+	color: blue;
+}
+.footer .socialmedia
+{
+	text-align: center;
+}
+.footer .socialmedia ul 
+{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+	
+}
+.footer .socialmedia ul li a{
+	display: block;
+	margin: 0 5px;
+	color: white;
+	font-size: 24px;
+	height: 30px;
+	width: 50px;
+	background: white;
+	color: #222222;
+	line-height: 60px;
+	border-radius: 4px;
+}
+.footer .socialmedia ul li a:hover
+{
+	color: blue;
+}
